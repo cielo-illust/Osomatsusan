@@ -2,13 +2,15 @@
 using System.Collections;
 
 public class GameContrller : MonoBehaviour {
-	public GameObject charactorObject;
-
-	AudioSource sound;
+	public GameObject Osomatsu;
+	public GameObject Karamatsu;
+	public GameObject Choromatsu;
+	public GameObject Ichimatsu;
+	public GameObject Jushimatsu;
+	public GameObject Todomatsu;
 
 	// Use this for initialization
 	void Start () {
-		sound = GetComponent<AudioSource> ();
 	}
 	
 	// Update is called once per frame
@@ -17,8 +19,23 @@ public class GameContrller : MonoBehaviour {
 			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 			RaycastHit hit;
 			if (Physics.Raycast (ray, out hit, Mathf.Infinity)) {
-				if (hit.collider.gameObject.tag == "Char01") {
-					sound.Play();
+				if (hit.collider.gameObject.tag == "Osomatsu") {
+					Osomatsu.SendMessage("Play");
+				}
+				if (hit.collider.gameObject.tag == "Karamatsu") {
+					Karamatsu.SendMessage("Play");
+				}
+				if (hit.collider.gameObject.tag == "Choromatsu") {
+					Choromatsu.SendMessage("Play");
+				}
+				if (hit.collider.gameObject.tag == "Ichimatsu") {
+					Ichimatsu.SendMessage("Play");
+				}
+				if (hit.collider.gameObject.tag == "Jushimatsu") {
+					Jushimatsu.SendMessage("Play");
+				}
+				if (hit.collider.gameObject.tag == "Todomatsu") {
+					Todomatsu.SendMessage("Play");
 				}
 			}
 		}
