@@ -9,8 +9,32 @@ public class GameContrller : MonoBehaviour {
 	public GameObject Jushimatsu;
 	public GameObject Todomatsu;
 
+	float time;
+	public float getTime() {
+		return time;
+	}
+
+	public void playAll() {
+		Osomatsu.SendMessage("PlayAll");
+		Karamatsu.SendMessage("PlayAll");
+		Choromatsu.SendMessage("PlayAll");
+		Ichimatsu.SendMessage("PlayAll");
+		Jushimatsu.SendMessage("PlayAll");
+		Todomatsu.SendMessage("PlayAll");
+	}
+
+	public void playAllOff() {
+		Osomatsu.SendMessage("PlayAllOff");
+		Karamatsu.SendMessage("PlayAllOff");
+		Choromatsu.SendMessage("PlayAllOff");
+		Ichimatsu.SendMessage("PlayAllOff");
+		Jushimatsu.SendMessage("PlayAllOff");
+		Todomatsu.SendMessage("PlayAllOff");
+	}
+
 	// Use this for initialization
 	void Start () {
+		time = Time.time;
 	}
 	
 	// Update is called once per frame
