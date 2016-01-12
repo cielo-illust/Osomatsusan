@@ -45,7 +45,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\AutoDestroyEffect.cs" />
      <Compile Include="Assets\Scripts\CharactorController.cs" />
+     <Compile Include="Assets\Scripts\Cutin.cs" />
      <Compile Include="Assets\Scripts\GameContrller.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

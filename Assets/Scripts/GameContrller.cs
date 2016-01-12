@@ -9,7 +9,10 @@ public class GameContrller : MonoBehaviour {
 	public GameObject Jushimatsu;
 	public GameObject Todomatsu;
 
-	float time;
+	AudioSource sound;
+
+	float time = -1.0f;
+	float time0 = 0.0f;
 	public float getTime() {
 		return time;
 	}
@@ -23,6 +26,14 @@ public class GameContrller : MonoBehaviour {
 		Todomatsu.SendMessage("PlayAll");
 	}
 
+	public void playAll2() {
+		Osomatsu.SendMessage("PlayAll");
+		Karamatsu.SendMessage("PlayAll");
+		Choromatsu.SendMessage("PlayAll");
+		Ichimatsu.SendMessage("PlayAll");
+		Jushimatsu.SendMessage("PlayAll");
+	}
+
 	public void playAllOff() {
 		Osomatsu.SendMessage("PlayAllOff");
 		Karamatsu.SendMessage("PlayAllOff");
@@ -32,9 +43,48 @@ public class GameContrller : MonoBehaviour {
 		Todomatsu.SendMessage("PlayAllOff");
 	}
 
+	public void playBGM() {
+		if (!sound.isPlaying) {
+			time = Time.time - time0;
+			sound.time = time0;
+			sound.Play ();
+		}
+	}
+	public void stopBGM() {
+		if (sound.isPlaying) {
+			time0 = Time.time - time;
+			time = -1.0f;
+			sound.Stop ();
+		}
+	}
+	public void prevBGM() {
+		if (sound.isPlaying) {
+			time0 = Time.time - time - 5.0f;
+			if (time0 <= 0.0f) time0 = 0.0f;
+			time = Time.time - time0;
+			sound.time = time0;
+			sound.Play ();
+		} else {
+			time0 -= 5.0f;
+			if (time0 <= 0.0f) time0 = 0.0f;
+		}
+	}
+	public void nextBGM() {
+		if (sound.isPlaying) {
+			time0 = Time.time - time + 5.0f;
+			if (time0 >= 276.0f) time0 = 276.0f;
+			time = Time.time - time0;
+			sound.time = time0;
+			sound.Play ();
+		} else {
+			time0 += 5.0f;
+			if (time0 >= 276.0f) time0 = 276.0f;
+		}
+	}
+
 	// Use this for initialization
 	void Start () {
-		time = Time.time;
+		sound = GetComponent<AudioSource> ();
 	}
 	
 	// Update is called once per frame
