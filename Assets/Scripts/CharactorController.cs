@@ -329,7 +329,7 @@ public class CharactorController : MonoBehaviour {
 		karaTimes.Add (addTime ("1:50.8", "1:52.9", 0.0f, Kara));
 		karaTimes.Add (addTime ("1:53.3", "1:55.2", 0.0f, Kara));
 		karaTimes.Add (addTime ("1:55.4", "1:58.3", 0.0f, Kara));
-		karaTimes.Add (addTime ("1:59.6", "2:00.9", 0.0f, Kara));
+		karaTimes.Add (addTime ("1:58.7", "2:00.9", 0.0f, Kara));
 
 		// チョロ松
 		choroTimes.Add (addTime ("0:01.0", "0:02.3", 0.0f, Choro));
@@ -351,7 +351,7 @@ public class CharactorController : MonoBehaviour {
 		choroTimes.Add (addTime ("0:32.5", "0:34.6", 0.0f, Choro));
 
 		choroTimes.Add (addTime ("1:27.2", "1:29.2", 0.0f, Choro));
-		choroTimes.Add (addTime ("1:29.6", "1:30.7", 0.0f, Choro));
+		choroTimes.Add (addTime ("1:29.3", "1:30.7", 0.0f, Choro));
 		choroTimes.Add (addTime ("1:30.8", "1:33.5", 0.0f, Choro));
 		choroTimes.Add (addTime ("1:33.8", "1:35.5", 0.0f, Choro));
 		choroTimes.Add (addTime ("1:36.1", "1:38.5", 0.0f, Choro));
@@ -388,7 +388,7 @@ public class CharactorController : MonoBehaviour {
 		ichiTimes.Add (addTime ("1:35.8", "1:37.4", 0.0f, Ichi));
 		ichiTimes.Add (addTime ("1:37.7", "1:38.9", 0.0f, Ichi));
 
-		ichiTimes.Add (addTime ("1:42.6", "1:44.8", 0.0f, Ichi));
+		ichiTimes.Add (addTime ("1:42.3", "1:44.8", 0.0f, Ichi));
 		ichiTimes.Add (addTime ("1:45.0", "1:46.6", 0.0f, Ichi));
 		ichiTimes.Add (addTime ("1:46.7", "1:48.3", 0.0f, Ichi));
 		ichiTimes.Add (addTime ("1:48.5", "1:50.0", 0.0f, Ichi));
