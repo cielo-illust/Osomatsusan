@@ -72,13 +72,13 @@ public class GameContrller : MonoBehaviour {
 	public void nextBGM() {
 		if (sound.isPlaying) {
 			time0 = Time.time - time + 5.0f;
-			if (time0 >= 276.0f) time0 = 276.0f;
+			if (time0 >= 272.0f) time0 = 272.0f;
 			time = Time.time - time0;
 			sound.time = time0;
 			sound.Play ();
 		} else {
 			time0 += 5.0f;
-			if (time0 >= 276.0f) time0 = 276.0f;
+			if (time0 >= 272.0f) time0 = 272.0f;
 		}
 	}
 
