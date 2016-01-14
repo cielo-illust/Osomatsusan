@@ -188,7 +188,7 @@ public class CharactorController : MonoBehaviour {
 		// “SIX SAME FACES”
 		// ああ、なんてややこしいキョーダイざんしょ
 		// マゼちゃって
-		times.Add (addTime ("1:00.0", "1:02.0", 1.0f, 0.0f));	// SHAKE! SHAKE!
+		times.Add (addTime ("1:00.7", "1:02.0", 1.0f, 0.0f));	// SHAKE! SHAKE!
 		// Don't be a nuisance!
 		// コンガラガってコンランざんす
 		// おふざけやめてちょ！
@@ -282,7 +282,7 @@ public class CharactorController : MonoBehaviour {
 		osoTimes.Add (addTime ("0:41.9", "0:43.1", 1.0f, 0.0f));	// ～Who? Who?
 		osoTimes.Add (addTime ("0:45.5", "0:46.8", 1.0f, 0.0f));	// ～Ho!Yell!Ho!Yell!
 		osoTimes.Add (addTime ("0:51.5", "0:54.0", 3.0f, Oso));		// 「ひたすらあそんで暮らして～」
-		osoTimes.Add (addTime ("1:00.0", "1:02.0", 1.0f, 0.0f));	// SHAKE! SHAKE!
+		osoTimes.Add (addTime ("1:00.7", "1:02.0", 1.0f, 0.0f));	// SHAKE! SHAKE!
 		osoTimes.Add (addTime ("1:08.1", "1:09.4", 1.0f, 0.0f));	// SHAKE!SHAKE!
 		osoTimes.Add (addTime ("1:15.6", "1:16.9", 1.0f, 0.0f));	// SHAKE!SHAKE!
 
@@ -336,7 +336,7 @@ public class CharactorController : MonoBehaviour {
 		karaTimes.Add (addTime ("0:41.9", "0:43.1", 1.0f, 0.0f));	// ～Who? Who?
 		karaTimes.Add (addTime ("0:45.5", "0:46.8", 1.0f, 0.0f));	// ～Ho!Yell!Ho!Yell!
 		karaTimes.Add (addTime ("0:51.5", "0:54.0", 3.0f, Oso));	// 「ひたすらあそんで暮らして～」
-		karaTimes.Add (addTime ("1:00.0", "1:02.0", 1.0f, 0.0f));	// SHAKE! SHAKE!
+		karaTimes.Add (addTime ("1:00.7", "1:02.0", 1.0f, 0.0f));	// SHAKE! SHAKE!
 		karaTimes.Add (addTime ("1:08.1", "1:09.4", 1.0f, 0.0f));	// SHAKE!SHAKE!
 		karaTimes.Add (addTime ("1:15.6", "1:16.9", 1.0f, 0.0f));	// SHAKE!SHAKE!
 
@@ -390,7 +390,7 @@ public class CharactorController : MonoBehaviour {
 		choroTimes.Add (addTime ("0:41.9", "0:43.1", 1.0f, 0.0f));	// ～Who? Who?
 		choroTimes.Add (addTime ("0:45.5", "0:46.8", 1.0f, 0.0f));	// ～Ho!Yell!Ho!Yell!
 		choroTimes.Add (addTime ("0:51.5", "0:54.0", 3.0f, Oso));	// 「ひたすらあそんで暮らして～」
-		choroTimes.Add (addTime ("1:00.0", "1:02.0", 1.0f, 0.0f));	// SHAKE! SHAKE!
+		choroTimes.Add (addTime ("1:00.7", "1:02.0", 1.0f, 0.0f));	// SHAKE! SHAKE!
 		choroTimes.Add (addTime ("1:08.1", "1:09.4", 1.0f, 0.0f));	// SHAKE!SHAKE!
 		choroTimes.Add (addTime ("1:15.6", "1:16.9", 1.0f, 0.0f));	// SHAKE!SHAKE!
 
@@ -441,7 +441,7 @@ public class CharactorController : MonoBehaviour {
 		ichiTimes.Add (addTime ("0:41.9", "0:43.1", 1.0f, 0.0f));	// ～Who? Who?
 		ichiTimes.Add (addTime ("0:45.5", "0:46.8", 1.0f, 0.0f));	// ～Ho!Yell!Ho!Yell!
 		ichiTimes.Add (addTime ("0:51.5", "0:54.0", 3.0f, Oso));	// 「ひたすらあそんで暮らして～」
-		ichiTimes.Add (addTime ("1:00.0", "1:02.0", 1.0f, 0.0f));	// SHAKE! SHAKE!
+		ichiTimes.Add (addTime ("1:00.7", "1:02.0", 1.0f, 0.0f));	// SHAKE! SHAKE!
 		ichiTimes.Add (addTime ("1:08.1", "1:09.4", 1.0f, 0.0f));	// SHAKE!SHAKE!
 		ichiTimes.Add (addTime ("1:15.6", "1:16.9", 1.0f, 0.0f));	// SHAKE!SHAKE!
 
@@ -496,7 +496,7 @@ public class CharactorController : MonoBehaviour {
 		jushiTimes.Add (addTime ("0:41.9", "0:43.1", 1.0f, 0.0f));	// ～Who? Who?
 		jushiTimes.Add (addTime ("0:45.5", "0:46.8", 1.0f, 0.0f));	// ～Ho!Yell!Ho!Yell!
 		jushiTimes.Add (addTime ("0:51.5", "0:54.0", 3.0f, Oso));	// 「ひたすらあそんで暮らして～」
-		jushiTimes.Add (addTime ("1:00.0", "1:02.0", 1.0f, 0.0f));	// SHAKE! SHAKE!
+		jushiTimes.Add (addTime ("1:00.7", "1:02.0", 1.0f, 0.0f));	// SHAKE! SHAKE!
 		jushiTimes.Add (addTime ("1:08.1", "1:09.4", 1.0f, 0.0f));	// SHAKE!SHAKE!
 		jushiTimes.Add (addTime ("1:15.6", "1:16.9", 1.0f, 0.0f));	// SHAKE!SHAKE!
 
@@ -552,7 +552,7 @@ public class CharactorController : MonoBehaviour {
 		todoTimes.Add (addTime ("0:41.9", "0:43.1", 1.0f, 0.0f));	// ～Who? Who?
 		todoTimes.Add (addTime ("0:45.5", "0:46.8", 1.0f, 0.0f));	// ～Ho!Yell!Ho!Yell!
 		todoTimes.Add (addTime ("0:51.5", "0:54.0", 3.0f, Oso));	// 「ひたすらあそんで暮らして～」
-		todoTimes.Add (addTime ("1:00.0", "1:02.0", 1.0f, 0.0f));	// SHAKE! SHAKE!
+		todoTimes.Add (addTime ("1:00.7", "1:02.0", 1.0f, 0.0f));	// SHAKE! SHAKE!
 		todoTimes.Add (addTime ("1:08.1", "1:09.4", 1.0f, 0.0f));	// SHAKE!SHAKE!
 		todoTimes.Add (addTime ("1:15.6", "1:16.9", 1.0f, 0.0f));	// SHAKE!SHAKE!
 
